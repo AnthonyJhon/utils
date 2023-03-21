@@ -1,0 +1,20 @@
+{
+  "name": "henan/utils",
+  "description": "php常用工具包",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "AnthonyJhon",
+      "email": "anthonyjhon@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "ext-gd": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "henan\\utils\\": "src/"
+    }
+  }
+}
